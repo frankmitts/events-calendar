@@ -1,0 +1,59 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+td {
+  height: 9.8rem;
+}
+
+table,
+td,
+th {
+  border: solid 1px #ccc;
+}
+
+.grey {
+  border: solid  1px #666;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.red {
+  border: solid  1px #b92828;
+  background-color: #f2bcbc;
+  color: #991919;
+}
+
+.green {
+  border: solid  1px #6b7e54;
+  background-color: #d1e0bf;
+  color: #51603f;
+}
+
+.blue {
+  border: solid  1px #1d38da;
+  background-color: #d2d6f0;
+  color: #38448e;
+}
+
+.grey,
+.red,
+.green,
+.blue {
+  border-radius: 8px;
+}
